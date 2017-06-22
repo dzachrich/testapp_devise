@@ -43,3 +43,29 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'administrate'
+gem 'bootstrap-sass'
+gem 'bourbon'
+gem 'devise'
+gem 'devise_invitable'
+gem 'high_voltage'
+gem 'pg'
+gem 'simple_form'
+gem 'unicorn'
+gem 'unicorn-rails'
+
+group :development do
+  gem 'better_errors'
+  gem 'foreman'
+  gem 'hub', :require=>nil
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
+group :development, :test do
+  gem 'pry-rails'
+  gem 'pry-rescue'
+  gem 'rubocop'
+end
+
